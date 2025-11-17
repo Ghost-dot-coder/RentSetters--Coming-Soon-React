@@ -10,9 +10,8 @@ export default function About() {
           RentSetters is a next-generation real estate service based in Kochi, Kerala,
           built to simplify how people rent, buy, and manage properties. We combine
           technology, transparency, and personalized support to connect tenants,
-          landlords, and PG owners seamlessly — all without brokers or hidden costs.
+          landlords, and PG owners seamlessly all without brokers or hidden costs.
         </p>
-
         <p>
           With a growing database of verified homes, flats, and PG accommodations across
           Kerala, RentSetters helps you find your ideal stay through smart filtering,

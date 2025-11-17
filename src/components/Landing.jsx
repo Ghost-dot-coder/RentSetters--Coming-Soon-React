@@ -13,7 +13,7 @@ export default function Landing() {
           RentSetters
         </h1>
 
-        <h2 className="text-3xl md:text-5xl font-bold text-white mb-10 max-w-4xl leading-tight drop-shadow-md">
+        <h2 className="text-3xl md:text-4xl font-bold text-white mb-10 max-w-4xl leading-tight drop-shadow-md">
           Simplifying Home Renting, Buying & Property
           <br />
           Management in Kochi.
@@ -39,7 +39,7 @@ export default function Landing() {
           </a>
 
           <a
-            href="https://facebook.com/rentsetters"
+            href="https://www.facebook.com/profile.php?id=61583524947267"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 transition-colors"

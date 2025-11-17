@@ -9,7 +9,10 @@ export default function ContactForm() {
   }
 
   return (
-    <section id="contact" className="flex justify-center py-20 px-4 bg-[#fdfbfa]">
+    <section
+      id="contact"
+      className="flex justify-center py-20 px-4 bg-[#fdfbfa]"
+    >
       <div
         className="w-full max-w-3xl bg-white shadow-md rounded-xl p-10 
         animate-fade-slide"
@@ -24,7 +27,6 @@ export default function ContactForm() {
           </p>
         ) : (
           <form onSubmit={handleSubmit} className="flex flex-col gap-6">
-
             {/* Name */}
             <div className="text-left">
               <label className="font-semibold text-gray-700">Name</label>
@@ -60,12 +62,7 @@ export default function ContactForm() {
 
             {/* Message */}
             <div className="text-left">
-              <label className="font-semibold text-gray-700">
-                Message
-                <span className="text-sm text-gray-500 ml-2">
-                  Gentle fade-in / slide-up animation on scroll.
-                </span>
-              </label>
+              <label className="font-semibold text-gray-700">Message</label>
               <textarea
                 rows={4}
                 placeholder="How can we help you?"
