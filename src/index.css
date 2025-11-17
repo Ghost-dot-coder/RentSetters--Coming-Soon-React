@@ -12,3 +12,10 @@
 }
 
 
+.property-button{
+background-color: #FF7315;
+}
+.property-button:hover{
+background-color: #3f1b02;
+
+}

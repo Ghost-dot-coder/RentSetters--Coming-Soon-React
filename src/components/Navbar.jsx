@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 
+// 🔗 GLOBAL LINK (Change here ONLY)
+const PROPERTY_LINK =
+  "https://docs.google.com/forms/d/e/1FAIpQLSe1G0A6BjzUyeZONN8mazt3Eo9FB9YkuFXnxWGoSa0-7v0HFA/viewform";
+
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
@@ -18,7 +22,6 @@ export default function Navbar() {
     `}
     >
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-
         {/* LEFT: Logo + Name */}
         <div className="flex items-center gap-3">
           <img
@@ -26,24 +29,47 @@ export default function Navbar() {
             alt="RentSetters Logo"
             className="w-10 h-10 object-cover"
           />
-          <span className="text-white font-bold text-xl tracking-wide" style={{fontFamily:"MyFont"}}>
+          <span
+            className="text-white font-bold text-xl tracking-wide"
+            style={{ fontFamily: "MyFont" }}
+          >
             RentSetters
           </span>
         </div>
 
         {/* DESKTOP MENU */}
         <div className="hidden md:flex items-center gap-8">
-          <a href="#about" className="text-white hover:text-indigo-300 transition text-sm font-semibold">
+          <a
+            href="#about"
+            className="text-white hover:text-indigo-300 transition text-sm font-semibold"
+          >
             About
           </a>
-          <a href="#services" className="text-white hover:text-indigo-300 transition text-sm font-semibold">
+          <a
+            href="#services"
+            className="text-white hover:text-indigo-300 transition text-sm font-semibold"
+          >
             Services
           </a>
-          <a href="#areas" className="text-white hover:text-indigo-300 transition text-sm font-semibold">
+          <a
+            href="#areas"
+            className="text-white hover:text-indigo-300 transition text-sm font-semibold"
+          >
             Area
           </a>
-          <a href="#contact" className="text-white hover:text-indigo-300 transition text-sm font-semibold">
+          <a
+            href="#contact"
+            className="text-white hover:text-indigo-300 transition text-sm font-semibold"
+          >
             Contact
+          </a>
+
+          {/* BUTTON */}
+          <a target="_blank"
+            href={PROPERTY_LINK}
+            className="property-button text-white font-semibold px-4 py-2 rounded-lg shadow-md transition-all"
+          >
+            List or Find Property
           </a>
         </div>
 
@@ -63,17 +89,42 @@ export default function Navbar() {
         `}
       >
         <div className="flex flex-col items-center gap-4 text-white text-lg font-medium">
-          <a onClick={() => setOpen(false)} href="#about" className="hover:text-indigo-300">
+          <a
+            onClick={() => setOpen(false)}
+            href="#about"
+            className="hover:text-indigo-300"
+          >
             About
           </a>
-          <a onClick={() => setOpen(false)} href="#services" className="hover:text-indigo-300">
+          <a
+            onClick={() => setOpen(false)}
+            href="#services"
+            className="hover:text-indigo-300"
+          >
             Services
           </a>
-          <a onClick={() => setOpen(false)} href="#areas" className="hover:text-indigo-300">
+          <a
+            onClick={() => setOpen(false)}
+            href="#areas"
+            className="hover:text-indigo-300"
+          >
             Area
           </a>
-          <a onClick={() => setOpen(false)} href="#contact" className="hover:text-indigo-300">
+          <a
+            onClick={() => setOpen(false)}
+            href="#contact"
+            className="hover:text-indigo-300"
+          >
             Contact
+          </a>
+
+          {/* MOBILE BUTTON */}
+          <a
+            onClick={() => setOpen(false)}
+            href={PROPERTY_LINK}
+            className="bg-indigo-600 hover:bg-indigo-700 px-4 py-2 rounded-lg shadow text-white mt-2"
+          >
+            List or Find Property
           </a>
         </div>
       </div>
