@@ -1,1 +1,14 @@
 @import "tailwindcss";
+@font-face {
+  font-family: "MyFont";
+  src: url("/fonts/Arista-Pro-Light-trial.ttf") format("truetype");
+}
+
+.bg-landing {
+  background-image: url('/house img.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+

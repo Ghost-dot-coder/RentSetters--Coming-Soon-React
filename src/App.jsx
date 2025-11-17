@@ -1,13 +1,11 @@
-import ComingSoon from "./pages/ComingSoon"
-
+import ComingSoon from "./pages/ComingSoon";
 
 function App() {
-
   return (
     <>
-     <ComingSoon/>
+      <ComingSoon />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
