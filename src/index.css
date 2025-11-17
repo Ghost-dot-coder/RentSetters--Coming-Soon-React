@@ -7,6 +7,25 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Remove default cursor */
+/* body {
+  cursor: none;
+} */
+
+/* Custom cursor dot */
+/* .custom-cursor {
+  width: 12px;
+  height: 12px;
+  background-color: #FF7315;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: transform 0.08s ease-out;
+} */
+
+
 .bg-landing {
   background-image: url('/house img.jpg');
   background-size: cover;

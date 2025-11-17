@@ -16,7 +16,7 @@ const locations = [
 
 export default function Areas() {
   return (
-    <section id="areas" className="py-24 bg-[#fefcfa]">
+    <section id="areas" className="py-12 bg-[#fefcfa]">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* LEFT CONTENT */}
         <div className="text-left">
@@ -59,7 +59,7 @@ export default function Areas() {
       <section className="w-full bg-[#0d1321] py-32 flex flex-col items-center text-center px-4 mt-7">
         {/* Heading with pulse animation */}
         <motion.h1
-          className="text-4xl md:text-5xl font-extrabold text-[#9b552f]"
+          className="text-4xl md:text-5xl font-bold text-[#9b552f]"
           animate={{
             color: ["#ffffff", "#FF7315", "#ffffff"], // fade between colors
           }}
@@ -75,7 +75,7 @@ export default function Areas() {
         {/* Subtext */}
         <p className="text-gray-300 text-lg md:text-xl mt-6 max-w-3xl leading-relaxed">
           Discover verified properties, connect instantly, and manage rentals in
-          one place — launching soon!
+          one place launching soon!
         </p>
       </section>
     </section>
