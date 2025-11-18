@@ -63,7 +63,7 @@ export default function Landing() {
           </a>
 
           <a
-            href="https://www.facebook.com/profile.php?id=61583524947267"
+            href="https://www.facebook.com/share/1BEoFwF1xX/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 hover:scale-110 transition-transform"
